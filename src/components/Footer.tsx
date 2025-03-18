@@ -1,16 +1,11 @@
-
 import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary/50 backdrop-blur-sm border-t border-border">
+  return <footer className="bg-secondary/50 backdrop-blur-sm border-t border-border">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-medium mb-4">roamastic</h3>
-            <p className="text-muted-foreground mb-4">
-              AI-powered trip planning made simple, elegant, and personalized.
-            </p>
+            <p className="text-muted-foreground mb-4">AI-powered trip planning made simple, elegant, and personalized. By Kunal Krishna</p>
             <div className="flex space-x-4">
               <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Twitter className="h-5 w-5" />
@@ -124,8 +119,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
